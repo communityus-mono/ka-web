@@ -44,7 +44,7 @@ if (typeof YAHOO.lacuna.Game === 'undefined' || !YAHOO.lacuna.Game) {
 
             Start : function(query) {
                 var l = window.location;
-                Game.domain = l.hostname || 'kenoantigen.com';
+                Game.domain = l.hostname || '192.168.0.37';
 
                 // This is some glue code to make the server, body and empire stores listen for changes.
                 // Normally, React Components should do this automatically, but since we need these
