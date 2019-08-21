@@ -12,3 +12,4 @@ RUN npm install -g gulp
 RUN npm install
 
 RUN mkdir -p /src/build
+RUN mkdir -p /src/lacuna
