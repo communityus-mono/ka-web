@@ -8,6 +8,6 @@ docker run -it --rm \
     -v ${PWD}/app/vendor-css:/src/app/vendor-css        \
     -v ${PWD}/app/vendor-js:/src/app/vendor-js          \
     --name=ka-web                                       \
-    --network kaserver_default                          \
+
     -e DEBUG=express:*                                  \
     kenoantigen/ka-web /bin/bash
